@@ -2,7 +2,9 @@ import { Popover } from '@headlessui/react'
 
 export function  CloseButton() {
     return (
-        <Popover.Button></Popover.Button>
+        <Popover.Button className="top-5 right-5 absolute text-zinc-400 hover:text-zinc-100" title="fechar feed">
+
+        </Popover.Button>
 
     );
 }
