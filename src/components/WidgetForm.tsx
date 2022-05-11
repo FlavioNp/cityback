@@ -1,5 +1,4 @@
 import { CloseButton } from "./CloseButton";
-
 import buracoImageUrl from "../assets/buraco.svg";
 import placasImageUrl from "../assets/placas.svg";
 import outrosImageUrl from "../assets/outros.svg";
@@ -45,7 +44,7 @@ export function WidgetForm() {
                 { Object.entries(feedBackTypes).map(([key, value]) => {
                     return (
                         <button
-                            className="bg-zinc-800 rounded-lg py-5 w-24 flex-1 flex flex-col items-center gap-2 border-2 border-transparent hover:border-brand-700"
+                            className="bg-zinc-800 rounded-lg py-5 w-24  flex flex-1 flex-col items-center gap-2 border-2 border-transparent hover:border-brand-700 focus:border-brand-700 focus:outline-none"
                             //onClick={}
                             type="button"
                         >
